@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenten.Jeconia</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: cursive;
+      }
+
+      #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background:black;
+      }
+      h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 80px;
+        color: aqua;
+      }
+      /* Media Queries for Responsive Design */
+@media screen and (max-width: 320px) {
+  /* Untuk perangkat seperti smartphone dengan lebar layar <= 320px */
+  button {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  /* Untuk perangkat seperti smartphone dengan lebar layar 321px hingga 768px */
+  button {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Untuk perangkat seperti tablet dengan lebar layar 769px hingga 1024px */
+  button {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Untuk perangkat seperti laptop dengan lebar layar 1025px hingga 1440px */
+  button {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  /* Untuk perangkat seperti desktop dengan lebar layar > 1440px */
+  button {
+    font-size: 72px;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="particles-js">
+      <h1>JECONIA</h1>
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
